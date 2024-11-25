@@ -18,7 +18,7 @@ function App() {
         }
       : {
           path: "/",
-          element: <Auth />,
+          element: <Auth setCreatedBy={setCreatedBy} />,
           errorElement: <ErrorPage />,
           children: [],
         },
