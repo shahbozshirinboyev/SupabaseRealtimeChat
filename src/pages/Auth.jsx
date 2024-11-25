@@ -11,7 +11,7 @@ function Auth({ setCreatedBy }) {
               setCreatedBy(user0.name);
               localStorage.setItem("createdBy", `${user0.name}`);
             }}
-            className="border w-[100px] h-[50px] hover:bg-sky-200 transition-all duration-300 rounded-xl"
+            className="border w-[100px] h-[50px] transition-all duration-300 rounded-xl"
           >
             User0
           </button>
@@ -20,7 +20,7 @@ function Auth({ setCreatedBy }) {
               setCreatedBy(user1.name);
               localStorage.setItem("createdBy", `${user1.name}`);
             }}
-            className="border w-[100px] h-[50px] hover:bg-sky-200 transition-all duration-300 rounded-lg"
+            className="border w-[100px] h-[50px] transition-all duration-300 rounded-lg"
           >
             User1
           </button>
